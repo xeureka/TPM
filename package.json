@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "bin": {
+  "tiny-pm": "bin/tiny-pm"
+},
   "devDependencies": {
     "@types/bun": "latest",
     "@types/find-up": "^4.0.2",
