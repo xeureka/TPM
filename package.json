@@ -1,0 +1,16 @@
+{
+  "name": "tpm",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/yargs": "^17.0.35"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
+}
