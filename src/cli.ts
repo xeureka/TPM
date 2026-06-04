@@ -1,5 +1,5 @@
 import yargs from "yargs";
-// import pm from "."
+import pm from ".";
 
 // The file is for CLI usage
 
@@ -12,7 +12,7 @@ yargs
   .command(
     "install",
     "Install the dependencies.",
-    (argv) => {
+    (argv: any) => {
       argv.option("production", {
         type: "boolean",
         description: "Install production dependencies only.",
@@ -24,16 +24,16 @@ yargs
 
       return argv;
     },
-    //     pm
+    pm,
   )
   .command(
     "*",
     "Install the dependencies",
-    (argv) =>
+    (argv: any) =>
       argv.option("production", {
         type: "boolean",
         description: "Install production dependencies only",
       }),
-    //   pm
+    pm,
   )
   .parse();

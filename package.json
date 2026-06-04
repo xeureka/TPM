@@ -5,12 +5,26 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/find-up": "^4.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/progress": "^2.0.7",
+    "@types/semver": "^7.7.1",
+    "@types/tar": "^7.0.87",
     "@types/yargs": "^17.0.35"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "find-up": "^8.0.0",
+    "fs-extra": "^11.3.5",
+    "js-yaml": "^4.2.0",
+    "log-update": "^8.0.0",
+    "progress": "^2.0.3",
+    "semver": "^7.8.1",
+    "tar": "^7.5.16",
+    "undici": "^8.3.0",
     "yargs": "^18.0.0"
   }
 }
