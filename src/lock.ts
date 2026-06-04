@@ -1,9 +1,8 @@
 import * as fs from "fs-extra";
 import * as yaml from "js-yaml";
-import type { Manifest } from "./rsolve";
+import type { Manifest } from "./resolve";
 import * as utils from "./utils";
 
-// defination of the type of the lock tree
 interface Lock {
   [indes: string]: {
     version: string;
