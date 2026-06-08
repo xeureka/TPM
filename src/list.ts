@@ -54,7 +54,7 @@ async function collectDeps(
     unsatisfied.push({
       name,
       parent: stack
-        .map(({ name }) => name) // eslint-disable-line no-shadow
+        .map(({ name }) => name)
         .slice(conflictIndex - 2)
         .join("/node_modules/"),
       url: matchedManifest.dist.tarball,
